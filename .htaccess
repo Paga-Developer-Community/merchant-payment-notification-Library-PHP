@@ -1,0 +1,5 @@
+#check 'AllowOverride All'  inside /etc/apache2/apache2.conf , <Directory /var/www/>
+
+#rewriterule to access the end points from url
+RewriteEngine  on
+RewriteRule ^([a-z]+)\/([a-z]+)\/?$ $1.php?service=$2 [NC]
