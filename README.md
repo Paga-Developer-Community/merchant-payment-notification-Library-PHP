@@ -4,8 +4,8 @@ The Merchant Payment Notification API enables merchants to integrate with the Pa
 1.Create a folder like merchantPaymentNotification inside web directory eg. /var/www/html
 2.copy the two files merchantPaymentNotificationService.php and .htaccess into merchantPaymentNotification
 
-How to call the end points
-1.There are four end points /getIntegrationServices, /validateCustomer, /getMerchantServices, and /submitTransaction
+# How to call the end points
+1.There are four end points:  /getIntegrationServices, /validateCustomer, /getMerchantServices, and /submitTransaction
 1.1. call end points
 
 url=https://yourservername.com/merchantPaymentNotification/merchantPaymentNotificationService/<end_point_name>
